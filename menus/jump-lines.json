@@ -1,0 +1,50 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Up jump-lines",
+        "command": "jump-lines:up"
+      },
+      {
+        "label": "Up small jump-lines",
+        "command": "jump-lines:up-small"
+      },
+      {
+        "label": "Down jump-lines",
+        "command": "jump-lines:down"
+      },
+      {
+        "label": "Down small jump-lines",
+        "command": "jump-lines:down-small"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "jump-lines",
+          "submenu": [
+            {
+              "label": "Up",
+              "command": "jump-lines:up"
+            },
+            {
+              "label": "Down",
+              "command": "jump-lines:down"
+            },
+            {
+              "label": "Up small",
+              "command": "jump-lines:up-small"
+            },
+            {
+              "label": "Down small",
+              "command": "jump-lines:down-small"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

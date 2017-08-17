@@ -1,0 +1,21 @@
+{
+  "name": "jump-lines",
+  "main": "./lib/jump-lines",
+  "version": "0.1.0",
+  "description": "Atom package to jump lines up and down in a file",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "jump-lines:up",
+    "atom-workspace": "jump-lines:down",
+    "atom-workspace": "jump-lines:up-small",
+    "atom-workspace": "jump-lines:down-small"
+  },
+  "repository": "https://github.com/atom/jump-lines",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
