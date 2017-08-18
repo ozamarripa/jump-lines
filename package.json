@@ -2,8 +2,8 @@
   "name": "jump-lines",
   "main": "./lib/jump-lines",
   "version": "1.0.0",
-  "description": "Atom package to jump lines up and down in a file",
-  "keywords": [],
+  "description": "Atom package to move the cursor up and down skipping x amount of lines",
+  "keywords": ["jump", "line", "skip", "cursor"],
   "activationCommands": {
     "atom-workspace": [
       "jump-lines:down",
@@ -12,7 +12,7 @@
       "jump-lines:up-small"
     ]
   },
-  "repository": "https://github.com/atom/jump-lines",
+  "repository": "https://github.com/ozamarripa/jump-lines",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
