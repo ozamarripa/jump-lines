@@ -1,9 +1,14 @@
 {
   "name": "jump-lines",
   "main": "./lib/jump-lines",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Atom package to move the cursor up and down skipping x amount of lines",
-  "keywords": ["jump", "line", "skip", "cursor"],
+  "keywords": [
+    "jump",
+    "line",
+    "skip",
+    "cursor"
+  ],
   "activationCommands": {
     "atom-workspace": [
       "jump-lines:down",
